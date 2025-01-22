@@ -9,7 +9,7 @@ export function PurposeSection() {
           <div>
             <h2 className="text-4xl font-bold text-[#33333B] mb-6">Our Purpose</h2>
             <p className="text-lg text-[#3D4E5E] mb-8">
-              At Jonex, we're committed to facilitating global trade in a safe, responsible, and sustainable way. 
+              At Jonex, we&#39;re committed to facilitating global trade in a safe, responsible, and sustainable way.
               Our purpose is to connect businesses worldwide, enabling growth and prosperity through efficient 
               import/export solutions.
             </p>
