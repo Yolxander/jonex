@@ -33,32 +33,28 @@ const buttonVariants = cva(
         },
     }
 )
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
+
 export interface ButtonProps
     extends React.ButtonHTMLAttributes<HTMLButtonElement>,
         VariantProps<typeof buttonVariants> {
     asChild?: boolean
 }
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
-interface ButtonProps {
-    size?: string
-}
+
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-    ({className, variant, size, asChild = false, ...props, size}, ref) => {
-        const Comp = asChild ? Slot : "button"
+    ({ className, variant, size, asChild = false, ...props }, ref) => {
+        const Comp = asChild ? Slot : "button";
         return (
             <Comp
-                className={cn(buttonVariants({variant, size, className}))}
+                className={cn(buttonVariants({ variant, size, className }))}
                 ref={ref}
                 {...props}
             />
-        )
+        );
     }
-)
-Button.displayName = "Button"
+);
+Button.displayName = "Button";
+
 
 export {Button, buttonVariants}
