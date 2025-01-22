@@ -36,7 +36,7 @@ export function PurposeSection() {
                     Driving Sustainable Practices
                   </h3>
                   <p className="text-[#3D4E5E]">
-                    We're committed to environmentally responsible logistics and operations.
+                    We&#39;re committed to environmentally responsible logistics and operations.
                   </p>
                 </div>
               </div>
