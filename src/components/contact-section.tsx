@@ -9,7 +9,7 @@ export function ContactSection() {
       <div className="container max-w-5xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6">Let&#39;s work together</h2>
+            <h2 className="text-4xl font-bold mb-6">Let's work together</h2>
             <p className="text-lg text-gray-300 mb-8">
               Get in touch with us and send some basic info about your products.
             </p>

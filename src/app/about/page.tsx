@@ -23,7 +23,7 @@ export default function AboutPage() {
               <p className="text-lg text-muted-foreground mb-6">
                 Founded in 2000, Jonex Solutions has grown from a small trading company to a global
                 leader in import/export solutions. Our journey is marked by continuous innovation
-                and unwavering commitment to our clients&#39; success.
+                and unwavering commitment to our clients' success.
               </p>
               <Button>Learn More About Our Journey</Button>
             </div>

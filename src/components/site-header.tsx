@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation"
-import { Menu, X } from "lucide-react"
+import {  Menu, X } from "lucide-react"
 import { useActiveSection } from "@/hooks/use-active-section"
 
 export function SiteHeader() {
