@@ -16,8 +16,8 @@ export function ProductsSection() {
             <CardHeader className="p-0 mb-6">
               <div className="relative h-48 w-full overflow-hidden rounded-xl mb-6">
                 <Image
-                  src="/placeholder.svg"
-                  alt="Agricultural products"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/marta-ortigosa-Xtd1Hq0ESpQ-unsplash.jpg-ObTH08xeHObXjKgMepNnCYSHATahwV.jpeg"
+                  alt="Agricultural products - Farmland with tractor and crops"
                   fill
                   className="object-cover transition-transform duration-300 hover:scale-105"
                 />
@@ -38,8 +38,8 @@ export function ProductsSection() {
             <CardHeader className="p-0 mb-6">
               <div className="relative h-48 w-full overflow-hidden rounded-xl mb-6">
                 <Image
-                  src="/placeholder.svg"
-                  alt="Industrial equipment"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/crystal-kwok-XUEdfpPIhXg-unsplash.jpg-kLaGdoKKhAyIrSI6FA0P7bmISQ91LM.jpeg"
+                  alt="Industrial equipment - Manufacturing facility with stainless steel machinery"
                   fill
                   className="object-cover transition-transform duration-300 hover:scale-105"
                 />
@@ -60,7 +60,7 @@ export function ProductsSection() {
             <CardHeader className="p-0 mb-6">
               <div className="relative h-48 w-full overflow-hidden rounded-xl mb-6">
                 <Image
-                  src="/placeholder.svg"
+                  src="https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&q=80"
                   alt="Consumer goods"
                   fill
                   className="object-cover transition-transform duration-300 hover:scale-105"
@@ -82,7 +82,7 @@ export function ProductsSection() {
             <CardHeader className="p-0 mb-6">
               <div className="relative h-48 w-full overflow-hidden rounded-xl mb-6">
                 <Image
-                  src="/placeholder.svg"
+                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
                   alt="Technology products"
                   fill
                   className="object-cover transition-transform duration-300 hover:scale-105"
